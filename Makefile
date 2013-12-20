@@ -98,7 +98,7 @@ includes = bitboard.h bitcount.h book.h endgame.h evaluate.h material.h misc.h m
            notation.h pawns.h platform.h position.h psqtab.h rkiss.h search.h thread.h timeman.h tt.h types.h ucioption.h
 
 Stockfish  : $(allobjs)
-           $(LD) $(LDFLAGS) $(allobjs) /out:DeepGandalf7.exe
+           $(LD) $(LDFLAGS) $(allobjs) /out:StockFish_dev.exe
 
 g6 : $(xallobjs)
            $(LD) $(LDFLAGS) $(xallobjs) /out:g6.exe
